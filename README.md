@@ -51,3 +51,20 @@ The control rule part is developed using a Lyapunov function. Moreover, the gain
 ![image](https://user-images.githubusercontent.com/32397445/153769394-f46fbeaf-cb97-4784-b0da-300c62141a5c.png)
 
 
+## Results
+To show the results of the first algorithm, as discussed before, a circle like path is assumed for robot to follow it. As we can see from figure (1), a XY-trajectory is designed.
+
+![image](https://user-images.githubusercontent.com/32397445/153769550-4a3c274a-8aeb-4640-90b8-5a0d0ef79419.png)
+
+If our robot path would be a circle shape and the maximum linear velocity set to 0.5 m/s, the proposed algorithm will show this excellent trajectory as illustrated in the following figure.
+
+![image](https://user-images.githubusercontent.com/32397445/153769577-c8c1e5ac-de1c-4ff7-8b2e-ebe9318abd70.png)
+
+Furthermore, we can consider the yaw angle performance of the robot as:
+![image](https://user-images.githubusercontent.com/32397445/153769655-c6e3a197-c5fc-4388-8dd2-53e963cf0670.png)
+
+As illustrated, it can be realized that the performance of the robot algorithm is as well as position tracking. 
+Generally, by tuning the PID controller coefficients, we can change the performance of the system, although we can use other algorithms to tune them automatically like using Fuzzy PID controller.
+According to our first simulations, it is proved that this algorithm is good enough to get operator commands and apply them to robot successfully. Since we wanted to assess the algorithm with different paths, we used MATLAB toolbox, which has more details and can help us to perform our goals better.
+
+
